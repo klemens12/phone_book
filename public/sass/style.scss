@@ -1,0 +1,78 @@
+body{
+    padding:1rem 0
+}
+label.error{
+    font-size:0.7rem;
+    color: red
+}
+.btn-margin{
+    margin-right:0.5rem
+}
+.custom-margin{
+    margin-top:1rem
+}
+.phone-book{
+    border-top:1px solid #8080803d;
+    margin-top:1rem;
+    
+    .book-item{
+        .card-content{
+            width:100%;
+            
+            .card-img-left{
+                width:20%;
+                margin-right:0.5rem
+            }
+            .content-left{
+                width:74%;
+                
+                .middle-text{
+                    padding-top:0rem;
+                    
+                    .phone-p{
+                       margin-bottom:0
+                    }
+                    .email-p{
+                        margin: 0.1rem 0 0.4rem 0;
+                    }
+                }
+                
+                .phone-link{
+                    font-weight: 700;
+                    color: #000000d6;
+                    font-size: 1.7rem;
+                    text-decoration: none;
+                }
+                .phone-link:hover{
+                    color: #000000;
+                }
+                .email-link{
+                    font-weight: 400;
+                    color: #0dcaf0;
+                    font-size: 1.3rem;
+                    text-decoration: none;
+                }
+                .email-link:hover{
+                    color: #86b7fe;
+                }
+            }
+            .remove-item{
+                padding: 0 0 0 0.75rem;
+                width:4%;
+                
+                .remove-record{
+                    cursor: pointer;
+                    color:#0dcaf0;
+                    font-size:1.4rem
+                }
+                .remove-record:hover{
+                    cursor: pointer;
+                    color:red
+                }
+            }
+        }
+        label.error{
+            font-size:0.6rem;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "semen06/phone_book",
+    "description": "phone book",
+    "type": "project",
+    "license": "-",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Semen Hoholiev",
+            "email": "semenius5@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1"
+    }
+}
